@@ -151,7 +151,7 @@ e.g., /foo/foo1/asm/audio_as.wav,asm <br>
 
 - ***data2vec-aqc*** : It is the cloned directory of *data2vec-aqc* package. We need to install it as it is required in ccc-wav2vec embedding extraction. *data2vec-aqc.zip* file is also added in case *data2vec-aqc* repository can not be cloned or have installation errors in present package. You can remove the present package/directory of *data2vec-aqc* and unzip *data2vec-aqc.zip* file and follow the installation process. 
 
-- ***model*** : It contains all the models. *SPRING_INX_ccc_wav2vec2_SSL.pt* is the ccc-wav2vec embedding extraction model. The other models are the u-vector model used in the language classification.
+- ***model*** : It contains all the models. *SPRING_INX_ccc_wav2vec2_SSL.pt* is the ccc-wav2vec embedding extraction model. Since the model size is large, it is not included in the repository. It can be downloaded from [here](https://asr.iitm.ac.in/SPRING_INX/models/foundation/SPRING_INX_ccc_wav2vec2_SSL.pt) and saved it in the ***model*** directory. The other models are the u-vector model used in the language classification.
 
 - ***recorded_audio*** : It stores a recently recorded audio. 
 
