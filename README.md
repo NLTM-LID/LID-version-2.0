@@ -24,7 +24,7 @@ The CLI also identifies the language of spoken audio using u-vector with WSSL mo
 Both tasks, GUI and CLI use the pre-trained models to identify the language of the spoken audio. The minimum duration of the spoken audio should be around 5-10 seconds.
 
 <p float="left">
-  <img src="img/u-vector_wssl_ccc_wav2vec.pdf" width="75%"/>
+  <img src="img/u-vector_wssl_ccc_wav2vec.png" width="100%"/>
 </p>
 
 # Prerequisites #
