@@ -133,7 +133,7 @@ Structure of CSV file: <br>
 <Path_of_wav_audio_file\>,<actual_language_label\>
 
 e.g., /foo/foo1/asm/audio_as.wav,asm <br>
-&nbsp;&nbsp;&nbsp;&nbsp;/foo/foo1/ben/bn_9.wav,ben <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/foo/foo1/ben/bn_9.wav,ben <br>
 
 
 - ***demo_uvector_wssl_gui.py*** : This is the GUI Python script. It helps in language classification of recorded speech. There is a functionality to record a speech, save it in a *recorded_audio* directory, and then we can classify the language. The language classification is not limited to recorded audio, but we can select any audio through file manager and classify the language label. In this GUI, we can also listen the recorded/pre-existing audio with play/pause functionalities. It is depended on ***demo_uvector_wssl.py*** Python script.
