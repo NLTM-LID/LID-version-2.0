@@ -28,7 +28,7 @@ Both tasks, GUI and CLI use the pre-trained models to identify the language of t
   <img src="img/u-vector_wssl_ccc_wav2vec.png" width="100%"/>
 </p>
 
-The provided block diagram illustrates the process of spoken language identification using a combination of Voice Activity Detection (VAD), u-vector with Within-Sample Similarity Loss (WSSL), and ccc-wav2vec embedding extractor. Here's an explanation of each component and their roles in the process:
+The provided block diagram illustrates the process of spoken language identification using a combination of Voice Activity Detection (VAD), ccc-wav2vec embedding extractor, and u-vector with Within-Sample Similarity Loss (WSSL). Here's an explanation of each component and their roles in the process:
 
 1. **Input Audio Signal**:
    - The process starts with an input audio signal, which can be a spoken audio recording.
