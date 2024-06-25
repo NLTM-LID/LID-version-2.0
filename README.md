@@ -251,8 +251,8 @@ Later, a bar graph will display the predicted probabilities of all languages.
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/NLTM-LID/LID version 2.0.git
-cd "LID version 2.0"
+git clone https://github.com/NLTM-LID/LID-version-2.0.git
+cd "LID-version-2.0"
 ```
 
 ### 2. To run CLI Python script
