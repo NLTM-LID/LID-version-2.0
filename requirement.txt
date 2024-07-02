@@ -1,0 +1,15 @@
+fairseq==0.12.2
+transformers==4.41.2
+tensorboardX==2.6.2.2
+numpy==2.0.0
+pandas==2.2.2
+sounddevice==0.4.7
+soundfile==0.12.1
+matplotlib==3.9.0
+pygame==2.5.2
+argparse==1.1
+scikit-learn==1.5.0
+tk
+silero-vad
+torch==2.3.1
+torchaudio==2.3.1
