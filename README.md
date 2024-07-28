@@ -96,7 +96,7 @@ OSError: cannot load library 'libportaudio.so.2': /home/user/anaconda3/envs/ccc-
 ```bash
 conda install -c anaconda portaudio
 ```
-
+<!---
 #### To install additional packages required by the ccc-wav2vec model:
 
 - To install data2vec-aqc packages.
@@ -114,6 +114,7 @@ git clone https://github.com/Speech-Lab-IITM/torchaudio-augmentations
 cd torchaudio-augmentations
 pip install --editable ./
 ```
+-->
 
 ##### Note:  ***torch*** and ***torchaudio*** are not explicitly included in the installation commands as they will be installed as dependencies. If not, install them separately.
 
@@ -178,9 +179,11 @@ e.g., /foo/foo1/asm/audio_as.wav,asm <br>
 
 ## Directories
 
+<!---
 - ***torchaudio-augmentations*** : It is the cloned directory of *torchaudio-augmentations* package. We need to install it as it is required in ccc-wav2vec embedding extraction. *torchaudio-augmentations.zip* file is also added in case *torchaudio-augmentations* repository can not be cloned or have installation errors in present package. You can remove the present package/directory of *torchaudio-augmentations* and unzip *torchaudio-augmentations.zip* file and follow the installation process. 
 
 - ***data2vec-aqc*** : It is the cloned directory of *data2vec-aqc* package. We need to install it as it is required in ccc-wav2vec embedding extraction. *data2vec-aqc.zip* file is also added in case *data2vec-aqc* repository can not be cloned or have installation errors in present package. You can remove the present package/directory of *data2vec-aqc* and unzip *data2vec-aqc.zip* file and follow the installation process. 
+-->
 
 - ***model*** : It contains all the models. *SPRING_INX_ccc_wav2vec2_SSL.pt* is the ccc-wav2vec embedding extraction model. Since the model size is large, it is not included in the repository. It can be downloaded from [here](https://asr.iitm.ac.in/SPRING_INX/models/foundation/SPRING_INX_ccc_wav2vec2_SSL.pt) and saved it in the ***model*** directory. The other models are the u-vector model used in the language classification.
 
