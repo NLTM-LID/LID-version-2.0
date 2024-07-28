@@ -91,7 +91,11 @@ This process allows for accurate identification of the spoken language by combin
 ```bash
 pip install scikit-learn matplotlib pygame tk transformers fairseq pandas tensorboardX sounddevice soundfile silero-vad
 ```
-
+##### If you get below error, please install the following packages also
+OSError: cannot load library 'libportaudio.so.2': /home/user/anaconda3/envs/ccc-w2v/bin/../lib/libstdc++.so.6: version `GLIBCXX_3.4.32' not found (required by /lib/x86_64-linux-gnu/libjack.so.0)
+```bash
+conda install -c anaconda portaudio
+```
 
 #### To install additional packages required by the ccc-wav2vec model:
 
