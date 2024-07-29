@@ -118,7 +118,13 @@ pip install --editable ./
 
 ##### Note:  ***torch*** and ***torchaudio*** are not explicitly included in the installation commands as they will be installed as dependencies. If not, install them separately.
 
+## Download the Model for Embedding Extractor
+Download the embedding extractor model from this [link](https://asr.iitm.ac.in/SPRING_INX/models/foundation/SPRING_INX_ccc_wav2vec2_SSL.pt) and save it in the ***model*** directory.
 
+```bash
+wget https://asr.iitm.ac.in/SPRING_INX/models/foundation/SPRING_INX_ccc_wav2vec2_SSL.pt
+mv SPRING_INX_ccc_wav2vec2_SSL.pt ./LID-version-2.0/model/
+```
 
 # Description
 
